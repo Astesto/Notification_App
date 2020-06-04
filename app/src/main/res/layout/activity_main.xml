@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/remind"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/enter_your_task_tv"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginStart="10dp"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="@string/enter_your_task"
+        android:paddingEnd="100dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="300dp"
+        android:layout_height="342dp"
+        android:layout_marginStart="30dp"
+        android:amPmBackgroundColor="@android:color/background_light"
+        android:amPmTextColor="@android:color/background_light"
+        android:headerBackground="@android:color/holo_blue_light"
+        android:numbersBackgroundColor="@android:color/holo_blue_light"
+        android:numbersSelectorColor="@android:color/holo_orange_light"
+        android:numbersTextColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/setBtn"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/set" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

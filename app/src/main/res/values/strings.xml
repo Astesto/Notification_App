@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notification_App</string>
+    <string name="enter_your_task">Enter Your Task</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_your_task_tv">Enter your Task</string>
+</resources>
